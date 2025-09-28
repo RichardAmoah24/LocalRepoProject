@@ -1,0 +1,10 @@
+outer_count = 7
+while outer_count > 0:
+    # Outer loop controls the number of time the inner loop runs.
+    inner_count = 2
+    while inner_count <= outer_count:
+        # Inner loop repeats for each outer loop iteration
+        print(inner_count, end=" ")
+        inner_count += 1
+    print()  # Move to a new line after each out loop iteration
+    outer_count -= 1
